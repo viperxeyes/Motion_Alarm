@@ -90,7 +90,8 @@ export default function Home({ navigation }) {
       <WideCard
         image={Images.humidity}
         disabled={true}
-        text={data.temp.humidity + " %\n" + data.temp.comfort}
+        text={data.temp.humidity + " %"}
+        humidity={data.temp.comfort}
       />
     </View>
   );
