@@ -28,6 +28,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "IOT Application that sense movements and trigger and alarm if the system is armed , it also read the temperature and humidity "
   }
 }
